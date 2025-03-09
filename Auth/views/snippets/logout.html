@@ -2,7 +2,7 @@
     $(document).ready(function() {
         $("#logout-btn").click(function() {
             $.ajax({
-                url: "http://localhost/AjaxAuth/Api/logout.php",
+                url: urlBase + "/AjaxAuth/Api/logout.php",
                 type: "POST",
                 success: function(response) {
                     if (response.success) {

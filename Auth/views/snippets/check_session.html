@@ -44,7 +44,8 @@
 <script>
     $(window).on('load', function() {
         $.ajax({
-            url: "http://localhost/AjaxAuth/Api/check_session.php",
+            // colocar a var urlBase no lugar da url
+            url: urlBase + "/AjaxAuth/Api/check_session.php",
             type: "GET",
             success: function(response) {
                 if (response.success) {

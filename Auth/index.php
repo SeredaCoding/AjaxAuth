@@ -1,10 +1,4 @@
-<?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-require_once(__DIR__.'\views\snippets\header.html');
-?>
-
+<?php require_once(__DIR__.'\views\snippets\header.html'); ?>
 <body class="d-flex align-items-center justify-content-center vh-100">
     <div class="container">
         <div class="row justify-content-center">
@@ -76,7 +70,7 @@ require_once(__DIR__.'\views\snippets\header.html');
                 let senha = $('#login-senha').val();
                 
                 $.ajax({
-                    url: 'http://localhost/AjaxAuth/Api/login.php',
+                    url: urlBase + "/AjaxAuth/Api/login.php",
                     type: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify({ email: email, senha: senha }),
@@ -107,7 +101,7 @@ require_once(__DIR__.'\views\snippets\header.html');
                 }
                 
                 $.ajax({
-                    url: 'http://localhost/AjaxAuth/Api/register.php',
+                    url: urlBase + "/AjaxAuth/Api/register.php",
                     type: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify({ email: email, senha: senha }),
