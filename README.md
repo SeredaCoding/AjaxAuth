@@ -26,7 +26,7 @@ Para rodar o AuthAjax em seu ambiente local ou servidor, siga os passos abaixo.
 - Passo 1: Clonar o Repositório
 Clone o repositório para o seu ambiente local. Utilize o comando abaixo para clonar o repositório AuthAjax:
 
-    git clone https://github.com/SeredaCoding/AuthAjax.git
+        git clone https://github.com/SeredaCoding/AuthAjax.git
 
 Configuração do Servidor Web:
 
