@@ -1,5 +1,5 @@
 
-# AuthAjax
+# Ajax Auth
 
 AjaxAuth é um sistema simples de autenticação (registro e login) desenvolvido em PHP orientado a objetos, utilizando jQuery e AJAX para uma experiência de usuário dinâmica e sem recarregamento da página.
 
