@@ -40,7 +40,7 @@ Para outros servidores, ajuste conforme necessário.
 - Passo 2: Configuração do Banco de Dados
 Dentro da pasta clonada, vá até o diretório AjaxAuth/Api/dumps.
 
-Importe o arquivo dump.sql para o seu servidor MySQL. Para isso, você pode utilizar ferramentas como phpMyAdmin ou fazer isso diretamente pelo terminal:
+Importe o arquivo dump.sql para o seu servidor MySQL. Para isso, você pode utilizar ferramentas como phpMyAdmin,MySQL Workbeanch ou fazer isso diretamente pelo terminal:
 
 
     mysql -u username -p < AjaxAuth/Api/dumps/dump.sql
